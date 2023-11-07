@@ -1,0 +1,70 @@
+body 
+{
+    background-image: url("https://images.rbxcdn.com/782b7fc18a24ee997efd9a7f02fa4bf9-bg_08072019.jpg");
+}
+
+.container {
+    position:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+ 
+ .form-content {
+    position: center;
+ }
+
+.logo
+{
+    text-align: center;
+    background-color:rgb(48, 48, 48);
+}
+
+.box
+{   
+    left: 100%;
+    
+}
+
+#main-menu .nav-bar 
+{ 
+    list-style:none; margin-top: 40px; 
+}
+#main-menu .nav-bar li 
+{ 
+    display:inline; padding:0 10px; 
+}
+
+#main-menu .nav-bar li a 
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+#main-menu 
+{
+    background-color: rgb(48, 48, 48);
+    padding: 5px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+form *
+{
+    background-color: rgb(48, 48, 48);
+    color:white;
+}
+.card-title
+{
+    background-color: rgb(48, 48, 48);
+    color:white;
+}
+.card
+{
+    background-color: rgb(48, 48, 48);
+    color:white;
+}
