@@ -12,15 +12,15 @@ $('#btnLoadData').click(function() {
         dataType: "json",
         success: function(data) {
             //can log either the entire data or invoke specific properties data.zipCode...
-            console.log(data.firstName);
+            console.log(data.firstname);
             
             //loads first name into my first input box (in example #1)
-            $("#firstname").val(data.firstName);
-            console.log(data.firstName);
+            $("#firstname").val(data.firstname);
+            console.log(data.firstname);
 
             //loads last name into my last name input box
-            $("#lastname").val(data.lastName);
-            console.log(data.lastName);
+            $("#lastname").val(data.lastname);
+            console.log(data.lastname);
 
             $('input[type=radio]').each(function () {
                 if (data.radio1 === $(this).val())
