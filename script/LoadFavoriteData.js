@@ -1,5 +1,6 @@
 $('#btnLoadData').click(function() {
     console.log("clicked");
+    
 
 //     let jsonURL = "https://www.w3schools.com/jquery/demo_ajax_json.js";
 

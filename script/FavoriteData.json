@@ -1,10 +1,8 @@
 {
-
-    "firstname" : "Rob" ,
-    "lastname" : "Martin" ,
-    "email" : "barryblox@gmail.com" ,
-    "pwd" : "B4rryBl0X@!" ,
-    "radio1" : "true" ,
+    "firstname" : "Rob",
+    "lastname" : "Martin",
+    "email" : "barryblox@gmail.com",
+    "pwd" : "B4rryBl0X@!",
+    "radio1" : "true",
     "bDate" : "2004-02-25"
-
 }
