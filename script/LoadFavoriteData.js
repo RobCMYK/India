@@ -5,7 +5,7 @@ $('#btnLoadData').click(function() {
 
 //     let jsonURL = "demo.json";
 
-    let jsonURL = "https://barrycumbie.github.io/376-india-lab/demo.json";
+    let jsonURL = "https://robcmyk.github.io/India/script/FavoriteData.json";
 
     $.ajax({
         url: jsonURL,
@@ -15,11 +15,15 @@ $('#btnLoadData').click(function() {
             console.log(data.firstName);
             
             //loads first name into my first input box (in example #1)
-            $("#favoriteData").val(data.firstName);
-            console.log(data.language);
+            $("#firstname").val(data.firstName);
+            console.log(data.firstName);
 
-            $('input[type=checkbox]').each(function () {
-                if (data.language === $(this).val())
+            //loads last name into my last name input box
+            $("#lastname").val(data.lastName);
+            console.log(data.lastName);
+
+            $('input[type=radio]').each(function () {
+                if (data.radio1 === $(this).val())
                 {
                   $(this).prop('checked', true)
                     console.log($(this));
